@@ -15,11 +15,11 @@ sections:
   templates:
   - blog-post
 - type: document
-  path: content/data/authors.yaml
-  label: Author List
-- type: document
   path: content/data/info.json
   label: Info Page
+- type: document
+  path: content/data/authors.yaml
+  label: Author List
 - type: heading
   label: General Config
 - type: document
@@ -28,7 +28,7 @@ sections:
 upload_dir: content/images
 public_path: "/content/images"
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: public
